@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pelampiasan Amarah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <button class="nav-btn">Docs</button>
+  <button class="nav-btn" id="rage-btn">Rage Out</button>
+</nav>
+
+<!-- Main Container -->
+<div class="container">
+  <h1>Lampiaskan Amarah</h1>
+  <p>Lampiaskan Amarah Mu Di pelampiasanamarah.netlify.app.</p>
+
+  <input id="text" type="text" placeholder="Lampiaskan amarah-mu.">
+  <button id="lampiaskan">Lampiaskan</button>
+
+  <div id="notif" class="notif-bubble"></div>
+</div>
+
+<!-- Rage Out Panel -->
+<div id="rage-out-panel" class="rage-out-panel">
+  <div class="panel-header">
+    <span class="panel-title">Rage Out</span>
+    <button id="close-panel" class="close-btn">✕</button>
+  </div>
+  <div id="rage-list" class="rage-list"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
